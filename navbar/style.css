@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: raleway;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* padding: 1rem; */
+}
+.navbar li{
+    padding: 1rem;
+
+}
+
+@media screen and (max-width:500px) {
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+}
